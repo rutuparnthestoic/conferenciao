@@ -3,8 +3,8 @@ import React from 'react'
 
 const Home = () => {
   const now = new Date();
-  const time = now.toLocaleTimeString('en-US', {hour: '2-digit', minute: '2-digit', hour12: true})
-  const date = now.toLocaleDateString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'})
+  const time = now.toLocaleTimeString('en-US', {hour: '2-digit', minute: '2-digit', hour12: true,  timeZone: 'Asia/Kolkata'})
+  const date = now.toLocaleDateString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Kolkata'})
 
   return (
     <section className='flex size-full flex-col gap-10 text-white'>
