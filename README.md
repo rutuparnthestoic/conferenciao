@@ -15,12 +15,15 @@ A Full stack web application using Next JS 14, Typescript, Clerk and Stream
 
 ## Getting started : 
 
+Install dependencies : 
 ```bash
-//Install dependencies :
 npm install
+```
 
-//run on local host :
+Run on local host : 
+```bash
 npm run dev
 ```
+
 
 
